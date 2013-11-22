@@ -1,0 +1,98 @@
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>In Yo Face</title>
+	<script src="js/jquery-1.9.1.js"></script>
+	
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+	<link href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script type="text/javascript" src="CMS.js"> </script>
+</head>
+<body>
+	<!--This is the header bar-->
+	<header>
+		<div align="left">
+		<!--This will be a link to our location on google maps-->
+		<button id="gotoMap">Bitte besuchen Uns</button>
+		</p>
+		</div>
+		<div align="center">
+			<!--align center-->	
+			<h2>Willkommen bei</h2>
+			<h1> Victory Gardens</h1>
+		</div>
+		<!--align right-->
+		<div id="search" align="right">
+			<input id="autocomplete" title="This array will be filled in later">
+		<!--This button activates a search.-->
+		<button>Search</button>
+		</div>
+	<!--End Header Bar-->	
+	</header>
+	
+	
+	<div>
+		<h2>Robert der deutscher radreitende Feldwaldbauer</h2>
+	</div>
+	
+	
+	<!--Begin Accordian Menu-->
+	<div id="accordion" align="left">
+		<h3>Rob's Blog</h3>
+		<div>
+			<p>Rob does interesting things like ride bikes and garden.</p>
+			<p> New Poll</p>
+			<p>What is your favorite fall tree or shrub?</p>
+			<form style="margin-top: 1em;">
+				<div id="radioset">
+					<input type="radio" id="radio1" name="radio"><label for="radio1">Red Maple</label>
+					<input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">Dogwood</label>
+					<input type="radio" id="radio3" name="radio"><label for="radio3">Burning Bush</label>
+				</div>
+			</form>
+		</div>
+		<h3>Beth's Blog</h3>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Home</a></li>
+				<li><a href="#tabs-2">Recipes</a></li>
+				<li><a href="#tabs-3">Chickens</a></li>
+			</ul>
+			<div id="tabs-1">Beth is more interesting than Rob.</div>
+			<div id="tabs-2">She cooks great food.</div>
+			<div id="tabs-3">And loves her chickens</div>
+		</div>
+
+		<h3>Pictures</h3>
+		<div>
+		<!--Put a picture here with a tool tip-->
+			<p>
+			<img src="maple.jpg" title="Red Maple"></img>
+			
+			</p>
+
+		
+		
+		
+		</div>
+		<h3>Farm Events</h3>
+		<div id="datepicker"></div>
+		<h3>Store</h3>
+		<div>
+			<p>Buy things because we need money</p>
+			<button id="button">Go to Store</button>
+		</div>
+		<h3>About Us</h3>
+		<div> 
+			<p>All you wanted to know about us.</p>
+			<p>We plant trees!</p> 
+			<div id="progressbar"></div>
+			<p>20 out of 100 planted</p>
+			<p>A portion of sales go towards planting trees</p>
+			
+		</div>
+	</div>
+	<!--End Accordian Menu-->
+	</body>
+	</html>
